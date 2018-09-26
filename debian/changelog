@@ -1,0 +1,10 @@
+ros-kinetic-hsr-description (1.1.0-0xenial) xenial; urgency=high
+
+  * Support Wavefront OBJ format meshes
+    Fixed CMakeLists for install
+  * Initial commit
+  * Contributors: Akiyoshi Ochiai, Yutaka Takaoka
+
+ -- Koji Terada <koji_terada@mail.toyota.co.jp>  Tue, 25 Sep 2018 07:00:00 -0000
+
+

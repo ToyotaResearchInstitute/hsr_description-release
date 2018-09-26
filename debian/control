@@ -1,0 +1,12 @@
+Source: ros-kinetic-hsr-description
+Section: misc
+Priority: extra
+Maintainer: Koji Terada <koji_terada@mail.toyota.co.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-rosbash, ros-kinetic-xacro
+Homepage: None
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hsr-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-hsr-meshes, ros-kinetic-joint-state-publisher, ros-kinetic-robot-state-publisher, ros-kinetic-rosbash, ros-kinetic-rviz, ros-kinetic-xacro
+Description: URDF files for Toyota HSR
